@@ -385,6 +385,15 @@ a:focus-visible {
   animation: line-in 600ms 480ms ease-out forwards;
 }
 
+.press-page .bio__portrait {
+  object-position: 50% 0%;
+}
+
+.press-page .bio__line {
+  top: 46%;
+  left: 69%;
+}
+
 @keyframes line-in {
   from {
     opacity: 0;
@@ -546,6 +555,11 @@ a:focus-visible {
     right: var(--page-pad);
     left: auto;
     font-size: 0.9rem;
+  }
+
+  .press-page .bio__line {
+    top: 23%;
+    right: calc(var(--page-pad) * 0.75);
   }
 
   .bio__identity {
