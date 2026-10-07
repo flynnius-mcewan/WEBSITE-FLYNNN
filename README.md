@@ -14,10 +14,7 @@ Then open `http://localhost:4173`.
 
 ## Content edits
 
-- Add Flynn's approved address after `mailto:` in `index.html`, `images.html`, and `bio.html`.
-- Replace each `href="#"` marked with `data-link-placeholder` in `index.html` with its approved URL. Remove `data-link-placeholder` after doing so.
 - The Bio copy is the single line in `.bio__line` in `bio.html`.
-- The home page uses the supplied headshot, the Images page contains the remaining portrait mosaic, and Bio uses the white-shirt portrait.
 - Images are original, full-resolution files in `assets/`.
 
 ## Technical notes
