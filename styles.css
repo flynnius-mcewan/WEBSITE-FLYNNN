@@ -231,8 +231,8 @@ a:focus-visible {
 
 .name-link--home {
   position: absolute;
-  top: 58%;
-  left: 29%;
+  top: 20%; 
+  left: 35%;
   z-index: 2;
   text-shadow: 0 1px 14px rgba(0, 0, 0, 0.35);
 }
@@ -458,7 +458,7 @@ a:focus-visible {
   }
 
   .site-nav__group {
-    gap: 0.18rem;
+    gap: 0
   }
 
   .site-nav a {
