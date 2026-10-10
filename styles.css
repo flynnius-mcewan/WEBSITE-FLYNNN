@@ -426,9 +426,9 @@ a:focus-visible {
   transform: translateX(-4px);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 5000px) {
   .landing {
-    min-height: 100svh;
+    min-height: 500svh;
   }
 
   .mosaic {
