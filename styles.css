@@ -443,8 +443,8 @@ a:focus-visible {
   }
 
   .name-link--home {
-    top: auto;
-    bottom: calc(max(1.35rem, env(safe-area-inset-bottom)) + 0.15rem);
+    positiion: absolute;
+    top: 25%;
     left: var(--page-pad);
     font-size: 1.06rem;
   }
